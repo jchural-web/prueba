@@ -1,8 +1,9 @@
 {
+  "installCommand": "npm install typescript@5.8.2 --save-exact --force && npm install --legacy-peer-deps --force",
   "buildCommand": "npm run build",
   "outputDirectory": "dist/angular-tailwind-app",
-  "installCommand": "npm install --legacy-peer-deps",
   "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }],
   "framework": null
 }
+
 
