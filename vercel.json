@@ -1,11 +1,8 @@
 {
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@vercel/static-build",
-      "config": { "distDir": "dist/angular-tailwind-app" }
-    }
-  ],
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist/angular-tailwind-app",
+  "installCommand": "npm install --legacy-peer-deps",
   "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }],
   "framework": null
 }
+
